@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Manhwas</title>
+  <style>
+    body {
+      background: #21222c;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #ff7b00;
+    }
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
+    }
+    .carta {
+      background: #2a2b38;
+      border-radius: 16px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+      width: 180px;
+      padding: 16px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .carta:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+    }
+    .carta img {
+      width: 120px;
+      height: 170px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      background: #444;
+    }
+    .carta .nome {
+      font-weight: bold;
+      font-size: 1.08em;
+      margin-bottom: 6px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Capas dos meus Manhwas</h1>
+  <div class="galeria">
+    <div class="carta">
+      <img src="https://cdn.discordapp.com/attachments/1279648666956730491/1374987266077753405/images.jpg?ex=68300c2e&is=682ebaae&hm=f893bb60c65cd91ae9a91dccf6cdbc740f43fd02b5942128cfe87e119b07d476&"alt="Capa Manhwa 1">
+      <div class="nome">the Beginning After the and</div>
+    </div>
+    <div class="carta">
+      <img src="https://m.media-amazon.com/images/I/71vKQfZYNpL.jpg" alt="Capa Manhwa 2">
+      <div class="nome">Tower of God</div>
+    </div>
+    <div class="carta">
+      <img src="https://m.media-amazon.com/images/I/51rPKTnT3JL.jpg" alt="Capa Manhwa 3">
+      <div class="nome">The Beginning After The End</div>
+    </div>
+    <div class="carta">
+  <img src="https://m.media-amazon.com/images/I/81a+qk8v-zL.jpg" alt="Capa Manhwa 1">
+  <div class="nome">Solo Leveling</div>
+</div>
+    <!-- Você pode copiar e colar mais "carta" aqui para adicionar mais manhwas -->
+  </div>
+</body>
+</html>
